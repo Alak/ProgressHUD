@@ -263,8 +263,8 @@
 	//---------------------------------------------------------------------------------------------------------------------------------------------
 	if (orientation == UIInterfaceOrientationPortrait) rotate = 0.0;
 	if (orientation == UIInterfaceOrientationPortraitUpsideDown) rotate = M_PI_2;
-	if (orientation == UIInterfaceOrientationLandscapeLeft) rotate = 2*M_PI;
-	if (orientation == UIInterfaceOrientationLandscapeRight) rotate = - M_PI_2;
+	if (orientation == UIInterfaceOrientationLandscapeLeft) rotate = - 2*M_PI;
+	if (orientation == UIInterfaceOrientationLandscapeRight) rotate = + M_PI_2;
 	//---------------------------------------------------------------------------------------------------------------------------------------------
 	hud.transform = CGAffineTransformMakeRotation(rotate);
 }
