@@ -153,7 +153,7 @@
 	if (spinner == nil)
 	{
 		spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
-		// spinner.color = HUD_SPINNER_COLOR;
+		spinner.color = HUD_SPINNER_COLOR;
 		spinner.hidesWhenStopped = YES;
 	}
 	if (spinner.superview == nil) [hud addSubview:spinner];
