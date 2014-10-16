@@ -143,7 +143,7 @@
 		{
 			CGRect frame = CGRectMake(window.frame.origin.x, window.frame.origin.y, window.frame.size.width, window.frame.size.height);
 			background = [[UIView alloc] initWithFrame:frame];
-			background.backgroundColor = [UIColor clearColor];
+			background.backgroundColor = [UIColor colorWithWhite:0 alpha:0.3];
 			[window addSubview:background];
 			[background addSubview:hud];
 		}
